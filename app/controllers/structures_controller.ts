@@ -1,6 +1,6 @@
 import type { HttpContext } from '@adonisjs/core/http'
-import Structure from "#models/structure";
-import Phone from "#models/phone";
+import Structure from '#models/structure'
+import Phone from '#models/phone'
 
 export default class StructuresController {
   /**
