@@ -12,7 +12,10 @@ export default class Nominee extends BaseModel {
   declare categoryId: number
 
   @column()
-  declare nomable: 'person' | 'structure'
+  declare nomableType: string
+
+  @column()
+  declare nombaleId: number
 
   @column()
   declare isWinner: boolean
