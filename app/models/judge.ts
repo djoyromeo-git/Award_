@@ -12,7 +12,7 @@ export default class Judge extends BaseModel {
   declare judiable: 'person' | 'structure'
 
   @column()
-  declare judiable_id: number
+  declare judiableId: number
 
   @column()
   declare countryId: number
