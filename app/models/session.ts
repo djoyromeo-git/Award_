@@ -18,7 +18,7 @@ export default class Session extends BaseModel {
   declare dateEnd: DateTime
 
   @column()
-  declare is_current: Boolean
+  declare isCurrent: Boolean
 
   @column.dateTime({ autoCreate: true })
   declare createdAt: DateTime
